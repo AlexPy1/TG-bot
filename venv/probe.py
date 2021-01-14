@@ -16,8 +16,8 @@ for i in range(len(news)):
         new_news.append(news[i].text)
 for i in range(len(new_news)):
     content.append(new_news[i])
-#for i in content:
-  #  content_1.add(i)
+for i in content:
+    content_1.add(i)
 
 print(("Сегодня играют:\n{}".format(content)))
 
